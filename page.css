@@ -1,0 +1,205 @@
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('C:/Users/Himna/OneDrive/Pictures/pic.jpg');
+    background-size: contain;
+    background-position: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 140px;
+    width: 70%;
+}
+nav{
+    flex: 1;
+    padding-left: 200px;
+}
+.navbar{
+    background-color: azure;
+}
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    padding-left: 200px;
+    color: black;
+}
+.content p{
+    font-size: 23px;
+    color: grey;
+    background: whitesmoke;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .button{
+    display: inline-block;
+    background:  grey;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+footer {
+        background-color: azure; 
+        color: #fff; 
+        padding: 20px; 
+        text-align: center; 
+        position: fixed; 
+        left: 15px;
+        bottom: 0;
+        width: 95%; 
+        margin: auto;
+}
+.sociallinks a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.sociallinks a:hover{
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+nav ul li:hover {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.content .button:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.content h2{
+    font-size: xx-large;
+    padding-left: 250px;
+    display: block;
+    background: white;
+    color: grey;
+}
+.locations {
+    border: 1px solid gray;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 3in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+    background: linear-gradient(45deg, grey,white);
+  }
+  
+  .locations img {
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+  }
+  
+  .locations h6 {
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+  } 
+  .locations:hover{
+    transform: scale(1.05);
+  }
+
+  .services {
+    border: 1px solid gray;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 3in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+    background: linear-gradient(45deg, grey,white);
+  }
+  
+  .services img {
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+  }
+  
+  .services h6 {
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+  } 
+  .services:hover{
+    transform: scale(1.05);
+  }
+  .description h1{
+    padding-left: 350px;
+    background-color: white;
+    color: grey;
+  }
+  .description p{
+    font-size: 25px;
+    width: 4in;
+    height: 50vh;
+    padding-top: 50px;
+    background: linear-gradient(45deg, gray,white);
+  }
+  .img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px; 
+    margin: 20px;
+    padding: 10px;
+    width: 6in;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: 60vh;
+  }
+  
+  .img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+  }
+  .img-container img:hover{
+    transform: scale(1.05);
+  }
